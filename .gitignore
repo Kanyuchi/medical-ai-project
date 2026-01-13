@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Data files (large datasets)
+*/data/*
+!*/data/.gitkeep
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Medical imaging formats
+*.dcm
+*.nii
+*.nii.gz
+
+# Model files
+*/models/*
+!*/models/.gitkeep
+*.pb
+*.onnx
+
+# Logs
+*.log
+logs/
+*.out
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Google Colab
+.google/
+.colab/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Results and outputs
+results/
+outputs/
+*.png
+*.jpg
+*.jpeg
+!images/*.png
+!images/*.jpg
+
+# Specific to medical AI project
+chest-xray-classification/data/*
+skin-lesion-detection/data/*
+drug-discovery/data/*
+chest-xray-classification/models/*
+skin-lesion-detection/models/*
+drug-discovery/models/*
+
+# Keep directory structure
+!.gitkeep
